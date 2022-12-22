@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+   background-image: url(table.png);
+   background-size: cover;
+   color: white;
+   text-align: center;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight: bold;
+}
+
+body p {
+   font-size: 22px; 
+}
+
+h1 {
+   color: #f1bc35;
+   font-size: 35px;
+}
+
+#message-el {
+   font-style: italic;
+}
+
+button {
+   color: #016f32;
+   width: 150px;
+   background-color: #f1bc35;
+   font-weight: bold;
+   font-size: 16px;
+   padding: 7px;
+   border: none;
+   border-radius: 3px;
+   margin-bottom: 4px;
+}
+
+button:hover {
+   cursor: pointer;
+   border: 2px solid darkgreen;
+}
