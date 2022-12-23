@@ -38,3 +38,7 @@ let newMessage = "Same here!";
 messages.push(newMessage);
 
 console.log(messages);
+
+messages.pop();
+
+console.log(messages);
