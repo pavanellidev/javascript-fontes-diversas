@@ -1,0 +1,17 @@
+body {
+   text-align: center;
+}
+
+.start {
+   height: 50px;
+   background-color: green;
+}
+
+.stop { 
+      height: 50px;
+      background-color: tomato;   
+}
+
+button:hover {
+   cursor: pointer;
+}
