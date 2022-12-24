@@ -1,7 +1,6 @@
-let randomNumber =  Math.random() * 6
+function rollDice(){
+   let randomNumber = Math.floor( Math.random() * 6) + 1;
+   return randomNumber
+}
 
-console.log(randomNumber);
-
-let flooredNumber = Math.round(3.478);
-
-console.log(flooredNumber);
+console.log(rollDice());
